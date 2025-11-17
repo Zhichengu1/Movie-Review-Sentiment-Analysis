@@ -2,7 +2,8 @@
 
 ## Overview
 This project builds a classifier to predict positive or negative sentiment from IMDb movie reviews using classical ML and deep learning (LSTM) approaches.
-
+## Inspiration 
+👉 **RoadMap:** [Machine Learning Roadmap](https://roadmap.sh/machine-learning)
 ## Features
 - Text preprocessing: tokenization, stopword removal, lemmatization
 - ML models: Logistic Regression, Naive Bayes, SVM
