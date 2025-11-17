@@ -12,6 +12,12 @@ This project builds a classifier to predict positive or negative sentiment from 
 ## Tech Stack
 Python, PyTorch, TorchText, scikit-learn, NLTK, SpaCy, Matplotlib, Seaborn, Jupyter Notebook
 
+
+## Project Folders Documentation
+
+- [src folder README](src/README-ML.md) – contains scripts for training and evaluating models
+
+
 ## Setup & Run
 Follow the environment setup above. Then run:
 
@@ -20,3 +26,6 @@ python src/preprocess.py
 python src/train_ml.py
 python src/train_lstm.py
 python src/evaluate.py
+
+
+
