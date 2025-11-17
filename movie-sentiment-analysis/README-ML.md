@@ -1,67 +1,69 @@
-📚 1. Required Python Packages (Explained)
-pandas
+# 📚 Required Python Packages (Explained)
 
+Below are the core Python libraries used in this project, along with explanations and documentation links.
+
+---
+
+## 🟦 pandas
 Used to load and manipulate datasets (tables).
-Used in:
 
-loading CSV files
+**Common uses:**
+- Loading CSV files  
+- Selecting columns  
+- Storing text reviews  
 
-selecting columns
+👉 **Docs:** https://pandas.pydata.org/docs/
 
-storing reviews
+---
 
-👉 Docs: https://pandas.pydata.org/docs/
+## 🟩 numpy
+Used for numerical operations.  
+Often supports ML and neural networks behind the scenes.
 
-numpy
+👉 **Docs:** https://numpy.org/doc/
 
-Used for numerical operations.
-Mostly supports ML/NN models behind the scenes.
+---
 
-👉 Docs: https://numpy.org/doc/
+## 🟨 re (Regular Expressions)
+Used to remove unwanted characters like:
 
-re (Regular Expressions)
+- HTML tags (`<br />`)
+- Special characters (`!!!`)
+- Numbers
 
-Used to remove:
+Useful in cleaning raw text.
 
-HTML tags
+👉 **Docs:** https://docs.python.org/3/library/re.html
 
-special characters
+---
 
-numbers
+## 🟦 NLTK (Natural Language Toolkit)
+Used for basic Natural Language Processing.
 
-Example:
-<br /> → removed
-!!! → removed
+| NLTK Tool | Description |
+|-----------|-------------|
+| **stopwords** | Removes common words: “the”, “is”, “and” |
+| **word_tokenize()** | Splits a sentence into words |
+| **WordNetLemmatizer()** | Converts words to base form (e.g., “cars” → “car”) |
 
-👉 Docs: https://docs.python.org/3/library/re.html
+👉 **Docs:** https://www.nltk.org/
 
-NLTK (Natural Language Toolkit)
+---
 
-We use it for basic NLP:
-
-NLTK Tool	What It Does
-stopwords	Removes words like “the”, “is”, “and”
-word_tokenize()	Splits sentence → words
-WordNetLemmatizer()	Converts word to base form (“cars” → “car”)
-
-👉 Docs: https://www.nltk.org/
-
-scikit-learn
-
+## 🟪 scikit-learn
 Used for:
 
-TF-IDF (turn text into numbers)
+- TF-IDF vectorization  
+- Training machine learning models  
+- Train/test split  
+- Evaluation metrics  
 
-training ML models
+👉 **Docs:** https://scikit-learn.org/stable/
 
-train/test split
+---
 
-evaluation metrics
+## 🔥 PyTorch
+Used for building, training, and evaluating the **LSTM deep learning model**.
 
-👉 Docs: https://scikit-learn.org/stable/
+👉 **Docs:** https://pytorch.org/docs/
 
-PyTorch
-
-Used for building and training the LSTM model.
-
-👉 Docs: https://pytorch.org/docs/
