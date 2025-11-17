@@ -2,10 +2,12 @@
 
 ## Overview
 This project builds a classifier to predict positive or negative sentiment from IMDb movie reviews using classical ML and deep learning (LSTM) approaches.
+
 ## Inspiration
-- 👉 **RoadMap:** [Machine Learning Roadmap](https://roadmap.sh/machine-learning)
-- 🎯 **Kaggle Competition:** [Sentiment Analysis on Movie Reviews](https://www.kaggle.com/competitions/sentiment-analysis-on-movie-reviews/overview)
-- 📚 **GeeksforGeeks Tutorial 1:** [Sentiment Analysis on IMDb Movie Reviews](https://www.geeksforgeeks.org/nlp/sentiment-analysis-on-imdb-movie-reviews/)
+- 👉 **RoadMap:** [Machine Learning Roadmap](https://roadmap.sh/machine-learning)  
+- 🎯 **Kaggle Competition:** [Sentiment Analysis on Movie Reviews](https://www.kaggle.com/competitions/sentiment-analysis-on-movie-reviews/overview)  
+- 📚 **GeeksforGeeks Tutorial:** [Sentiment Analysis on IMDb Movie Reviews](https://www.geeksforgeeks.org/nlp/sentiment-analysis-on-imdb-movie-reviews/)  
+- 🔥 **PyTorch Quickstart Tutorial:** [Beginner Basics](https://docs.pytorch.org/tutorials/beginner/basics/quickstart_tutorial.html)
 
 ## Features
 - Text preprocessing: tokenization, stopword removal, lemmatization
