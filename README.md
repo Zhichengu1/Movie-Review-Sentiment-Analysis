@@ -15,7 +15,7 @@ Python, PyTorch, TorchText, scikit-learn, NLTK, SpaCy, Matplotlib, Seaborn, Jupy
 
 ## Project Folders Documentation
 
-- [src folder README](src/README-ML.md) – contains scripts for training and evaluating models
+- [src folder README](movie-sentiment-analysis/README-ML.md) – contains scripts for training and evaluating models
 
 
 ## Setup & Run
